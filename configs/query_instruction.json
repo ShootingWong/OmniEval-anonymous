@@ -1,0 +1,9 @@
+{
+  "bge-m3": "",
+  "bge-large-zh": "为这个句子生成表示以用于检索相关文章：",
+  "e5-mistral-7b": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery: ",
+  "gte-qwen2-1.5b": "Given a web search query, retrieve relevant passages that answer the query: ",
+  "gte-qwen2-7b": "Given a web search query, retrieve relevant passages that answer the query: ",
+  "jina-zh": "",
+  "bm25": ""
+}

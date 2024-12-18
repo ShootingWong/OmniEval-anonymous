@@ -1,0 +1,19 @@
+{
+  "llama2-7b-chat": "",
+  "llama3-8b-instruct": "",
+  "llama3-70b-instruct": "",
+  "llama-3.1-70B-instruct": "",
+  "llama-3.1-8B-instruct": "",
+  "qwen2-7b": "",
+  "qwen2-72b": "",
+  "qwen2.5-7b": "",
+  "qwen2.5-72b": "",
+  "yi15-34b": "",
+  "deepseek-v2-chat": "",
+  "bge-m3": "",
+  "bge-large-zh": "",
+  "e5-mistral-7b": "",
+  "gte-qwen2-1.5b": "",
+  "gte-qwen2-7b": "",
+  "jina-zh": ""
+}
