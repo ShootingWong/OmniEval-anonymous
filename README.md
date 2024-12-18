@@ -2,6 +2,7 @@
 
 
 <div align="center">
+<a href="https://arxiv.org/pdf/2412.13018" target="_blank"><img src=https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv></a>
 <a href="https://huggingface.co/datasets/RUC-NLPIR/OmniEval-AutoGen-Dataset" target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-27b3b4></a>
 <a href="https://huggingface.co/datasets/RUC-NLPIR/OmniEval-KnowledgeCorpus" target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-b181d9></a>
 <a href="https://huggingface.co/RUC-NLPIR/OmniEval-ModelEvaluator" target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Checkpoint-5fc372></a>
@@ -31,7 +32,7 @@
 With FlashRAG and provided resources, you can effortlessly reproduce existing SOTA works in the RAG domain or implement your custom RAG processes and components. -->
 
 
-## :wrench: Installation
+## 🔧 Installation
 ```
 conda env create -f environment.yml
 conda activate finrag
@@ -39,7 +40,7 @@ conda activate finrag
 
 <!-- ## :sparkles: Features
 1. -->
-## :rocket: Quick-Start
+## 🚀 Quick-Start
 Notes:
 1. The code run path is `./OpenFinBench`
 2. We provide the following datasets:
@@ -195,9 +196,19 @@ Merge the latter two to obtain the final results of model-based evaluation by th
     ```
     This command will generate the fourth evaluation file, named "evaluation_result_model_qwen-eval-merge.jsonl", which contains the final model-based evaluation result. 
 
-## :bookmark: License
+## 🔖 License
 
 OmniEval is licensed under the [<u>CC-BY-SA-4.0 License</u>](./LICENSE).
 
-## :star2: Citation
-The paper is waiting to be released!
+## 🌟 Citation
+```bibtex
+@misc{wang2024omnievalomnidirectionalautomaticrag,
+      title={OmniEval: An Omnidirectional and Automatic RAG Evaluation Benchmark in Financial Domain}, 
+      author={Shuting Wang and Jiejun Tan and Zhicheng Dou and Ji-Rong Wen},
+      year={2024},
+      eprint={2412.13018},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.13018}, 
+}
+```
