@@ -8,7 +8,7 @@
 <a href="https://huggingface.co/RUC-NLPIR/OmniEval-ModelEvaluator" target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Checkpoint-5fc372></a>
 <a href="https://huggingface.co/RUC-NLPIR/OmniEval-HallucinationEvaluator" target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Checkpoint-b181d9></a>
 <a href="https://huggingface.co/spaces/NLPIR-RAG/OmniEval" target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Leaderboard-blue></a>
-<a href="https://github.com/RUC-NLPIR/FlashRAG/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/LICENSE-MIT-green"></a>
+<a href="https://github.com/RUC-NLPIR/OmniEval/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/LICENSE-MIT-green"></a>
 <a><img alt="Static Badge" src="https://img.shields.io/badge/made_with-Python-blue"></a>
 </div>
 
@@ -198,7 +198,7 @@ Merge the latter two to obtain the final results of model-based evaluation by th
 
 ## 🔖 License
 
-OmniEval is licensed under the [<u>CC-BY-SA-4.0 License</u>](./LICENSE).
+OmniEval is licensed under the [<u>MIT License</u>](./LICENSE).
 
 ## 🌟 Citation
 ```bibtex
