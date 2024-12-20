@@ -49,11 +49,11 @@ Notes:
 ### 1. Build the Retrieval Corpus
 1. If you use our provided knowledge corpus, do the following steps:
     1. download knowledge corpus from <a href="https://huggingface.co/datasets/RUC-NLPIR/FlashRAG_datasets/" target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-b181d9></a>
-    2. move "gen_datas_all-2048-256_nodes" and "gen_datas_all-2048-256_docs" into ./OpenFinBench/corpus/nodes_dir
+    2. move "gen_datas_all-2048-256_nodes" and "gen_datas_all-2048-256_docs" into OmniEval/corpus/nodes_dir
 
 2. If you need to build your self knowledge corpus, do the following steps:
     ```
-    # cd OpenFinBench
+    # cd OmniEval
     # set the following parameters inner the bash file `corpus_builder/build_corpus.sh`:
     # DATA_ROOT="corpus" # the root to save all retrieval data information
     # DATA_DIR="few_shot" # the dirname of the source documents. You should first put your documents in the $DATA_ROOT/$DATA_DIR.
@@ -66,7 +66,7 @@ Notes:
 ### 2. Generate Evaluation Data Samples
 1. Generate evaluation instances
     ```
-    # cd OpenFinBench
+    # cd OmniEval
     # set the following parameters inner the bash file `data_generator/generate_data.sh`:
     # NODE_ROOT="corpus/nodes_dir" # the root to save the built knowledge corpus
     # SAVE_NAME="few_shot_test" # the save dir of your built document corpus, which is same as the above file.
@@ -80,7 +80,7 @@ Notes:
     ```
 2. Filter (quality inspection) evaluation instances
     ```
-    # cd OpenFinBench
+    # cd OmniEval
     # set the following parameters inner the bash file `data_generator/generate_data_filter.sh`:
     # NODE_ROOT="corpus/nodes_dir" # the root to save the built knowledge corpus
     # SAVE_NAME="few_shot_test" 
@@ -103,7 +103,7 @@ Notes:
   }
   ```
 ```
-# cd OpenFinBench
+# cd OmniEval
 # set the following parameters inner the bash file `evaluator/inference/rag_inference.sh`:
 # NODE_ROOT="corpus/nodes_dir" # the root to save the built knowledge corpus
 # SAVE_NAME="few_shot_test" 
@@ -123,7 +123,7 @@ sh evaluator/inference/rag_inference.sh
 ```
 <!-- 
 ```
-# cd OpenFinBench
+# cd OmniEval
 sh evaluator/inference/rag_inference.sh 
 ``` -->
 ### 4. Evaluate Your Models
@@ -178,7 +178,7 @@ sh evaluator/judgement/judger.sh
 ``` 
 #### (b) Rule-based Evaluation
 ```
-# cd OpenFinBench
+# cd OmniEval
 # Just set the value of ${judge_type} to "rule"
 # judge_type="model" # model or rule
 sh evaluator/judgement/judger.sh
