@@ -42,7 +42,7 @@ conda activate finrag
 1. -->
 ## 🚀 Quick-Start
 Notes:
-1. The code run path is `./OpenFinBench`
+1. The code run path is `OmniEval`
 2. We provide the following datasets:
     1. Auto-generated evaluation dataset in <a href="https://huggingface.co/datasets/RUC-NLPIR/OmniEval-AutoGen-Dataset" target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-27b3b4></a>
     2. Constructed knowledge corpus in <a href="https://huggingface.co/datasets/RUC-NLPIR/OmniEval-KnowledgeCorpus" target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-b181d9></a>
