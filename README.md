@@ -17,8 +17,7 @@
 <p>
 <a href="#wrench-installation">Installation</a> |
 <!-- <a href="#sparkles-features">Features</a> | -->
-<a href="#rocket-quick-start">Quick-Start</a> | 
-<a href="#bookmark-license">License</a> | 
+<a href="#rocket-quick-start">Quick-Start</a>
 
 </p>
 
@@ -195,7 +194,4 @@ Merge the latter two to obtain the final results of model-based evaluation by th
     ```
     This command will generate the fourth evaluation file, named "evaluation_result_model_qwen-eval-merge.jsonl", which contains the final model-based evaluation result. 
 
-## 🔖 License
-
-OmniEval is licensed under the [<u>MIT License</u>](./LICENSE).
 
