@@ -19,7 +19,6 @@
 <!-- <a href="#sparkles-features">Features</a> | -->
 <a href="#rocket-quick-start">Quick-Start</a> | 
 <a href="#bookmark-license">License</a> | 
-<a href="#star2-citation">Citation</a>
 
 </p>
 
@@ -200,15 +199,3 @@ Merge the latter two to obtain the final results of model-based evaluation by th
 
 OmniEval is licensed under the [<u>MIT License</u>](./LICENSE).
 
-## 🌟 Citation
-```bibtex
-@misc{wang2024omnievalomnidirectionalautomaticrag,
-      title={OmniEval: An Omnidirectional and Automatic RAG Evaluation Benchmark in Financial Domain}, 
-      author={Shuting Wang and Jiejun Tan and Zhicheng Dou and Ji-Rong Wen},
-      year={2024},
-      eprint={2412.13018},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2412.13018}, 
-}
-```
